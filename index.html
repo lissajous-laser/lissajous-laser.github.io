@@ -10,6 +10,8 @@
     body {
       font-family: sans-serif;
       margin: 2rem 9%;
+      background-color: rgb(16, 16, 24);
+      color: rgb(239, 239, 239);
     }
 
     h1, h2 {
@@ -22,7 +24,7 @@
 
     ul {
       padding: 0;
-      max-width: 44rem;
+      max-width: 48rem;
       list-style-type: none;
     }
 
@@ -35,11 +37,14 @@
     }
 
     a {
-      color: Navy;
+      /* color: dodgerblue; */
+      color: #66b3ff;
+
     }
 
     a:visited {
-      color: DarkSlateBlue;
+      /* color: mediumslateblue; */
+      color: #668cff;
     }
 
     li>a {
@@ -48,11 +53,14 @@
 
     .sticky {
       position: sticky;
-      bottom: 0px;
-      background-color: white;
+      bottom: 0;
       padding: 0.5rem 0;
-      background-color: rgba(255, 255, 255, 0.9);
+      background-color: rgba(16, 16, 24, 0.9);
       z-index: 1;
+    }
+
+    .sticky > a {
+      padding: 0.25rem 0;
     }
 
     .carusel {
@@ -61,8 +69,8 @@
       overflow-x: auto;
     }
 
-    .lighter {
-      color: dimgray;
+    .darker {
+      color: rgb(159, 159, 159);
     }
 
     @media (min-width: 32rem) {
@@ -108,7 +116,7 @@
 
   <main>
     <h2 id="australian-magpie">Australian magpie</h2>
-    <p><em>Gymnorhina tibicen</em> <span class="lighter">(Artamidae)</span></p>
+    <p><em>Gymnorhina tibicen</em> <span class="darker">(Artamidae)</span></p>
     <p>37 to 43 cm.</p>
     <div class="carusel">
       <img loading="lazy"
@@ -118,7 +126,7 @@
     </div>
     <audio preload="none" controls src="https://upload.wikimedia.org/wikipedia/commons/1/19/Magpiesong.ogg"></audio>
     <h2 id="brown-thornbill">Brown thornbill</h2>
-    <p><em>Acanthiza pusilla</em> <span class="lighter">(Acanthizidae)</span></p>
+    <p><em>Acanthiza pusilla</em> <span class="darker">(Acanthizidae)</span></p>
     <p>Up to 10 cm.</p>
     <div class="carusel">
       <img loading="lazy"
@@ -129,7 +137,7 @@
     <audio preload="none" controls
       src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Acanthiza_pusilla_-_Brown_Thornbill_XC446870.mp3"></audio>
     <h2 id="common-blackbird">Common blackbird</h2>
-    <p><em>Turdus merula</em> <span class="lighter">(Turdidae)</span></p>
+    <p><em>Turdus merula</em> <span class="darker">(Turdidae)</span></p>
     <p>23.5 to 29 cm. Introduced species.</p>
     <div class="carusel">
       <img loading="lazy"
@@ -139,7 +147,7 @@
     </div>
     <audio preload="none" controls src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Turdus_merula.ogg"></audio>
     <h2 id="common-myna">Common myna</h2>
-    <p><em>Acridotheres tristis</em> <span class="lighter">(Sturnidae)</span></p>
+    <p><em>Acridotheres tristis</em> <span class="darker">(Sturnidae)</span></p>
     <p>23 cm. Introduced species.</p>
     <div class="carusel">
       <img loading="lazy"
@@ -150,7 +158,7 @@
     <audio preload="none" controls
       src="https://upload.wikimedia.org/wikipedia/commons/c/c4/CommonMynaCalls.ogg"></audio>
     <h2 id="common-starling">Common starling</h2>
-    <p><em>Sturnus vulgaris</em> <span class="lighter">(Sturnidae)</span></p>
+    <p><em>Sturnus vulgaris</em> <span class="darker">(Sturnidae)</span></p>
     <p>19 to 23 cm. Introduced species.</p>
     <div class="carusel">
       <img loading="lazy"
@@ -161,8 +169,8 @@
     <audio preload="none" controls
       src="https://upload.wikimedia.org/wikipedia/commons/0/07/Sturnus_vulgaris.ogg"></audio>
     <h2 id="crested-pigeon">Crested pigeon</h2>
-    <p><em>Ocyphaps lophotes</em> <span class="lighter">(Columbidae)</span></p>
-    <p>30 to 34 cm. Makes a whistling sound when flying from danger.</p>
+    <p><em>Ocyphaps lophotes</em> <span class="darker">(Columbidae)</span></p>
+    <p>30 to 34 cm. When flying from danger the wings create a whistling sound .</p>
     <div class="carusel">
       <img loading="lazy"
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Ocyphaps_lophotes_-_Lake_Parramatta_Reserve.jpg/640px-Ocyphaps_lophotes_-_Lake_Parramatta_Reserve.jpg" />
@@ -170,18 +178,18 @@
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Crested_Pigeon_Nov09.jpg/640px-Crested_Pigeon_Nov09.jpg" />
     </div>
     <h2 id="eastern-rosella">Eastern rosella</h2>
-    <p><em>Platycercus eximius</em> <span class="lighter">(Psittaculidae)</span></p>
+    <p><em>Platycercus eximius</em> <span class="darker">(Psittaculidae)</span></p>
     <p>30 cm.</p>
     <div class="carusel">
       <img loading="lazy"
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Platycercus_eximius_diemenensis_male.jpg/640px-Platycercus_eximius_diemenensis_male.jpg" />
       <img loading="lazy"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Platycercus_eximius_diemenensis_juvenile.jpg/640px-Platycercus_eximius_diemenensis_juvenile.jpg" />
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Platycercus_eximius_-Buffalo_Zoo-8-3c.jpg/480px-Platycercus_eximius_-Buffalo_Zoo-8-3c.jpg" />
     </div>
     <audio preload="none" controls
       src="https://upload.wikimedia.org/wikipedia/commons/6/65/Platycercus_eximius_impress_call.ogg"></audio>
     <h2 id="galah">Galah</h2>
-    <p><em>Eolophus roseicapilla</em> <span class="lighter">(Cacatuidae)</span></p>
+    <p><em>Eolophus roseicapilla</em> <span class="darker">(Cacatuidae)</span></p>
     <p>35 cm.</p>
     <div class="carusel">
       <img loading="lazy"
@@ -192,7 +200,7 @@
     <audio preload="none" controls
       src="https://upload.wikimedia.org/wikipedia/commons/7/77/Pinkandgreygalahsroosting.ogg"></audio>
     <h2 id="grey-butcherbird">Grey butcherbird</h2>
-    <p><em>Cracticus torquatus</em> <span class="lighter">(Artamidae)</span></p>
+    <p><em>Cracticus torquatus</em> <span class="darker">(Artamidae)</span></p>
     <p>27 to 30 cm.</p>
     <div class="carusel">
       <img loading="lazy"
@@ -201,7 +209,7 @@
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/CSIRO_ScienceImage_2569_Grey_Butcherbird_Braeside_Victoria.jpg/640px-CSIRO_ScienceImage_2569_Grey_Butcherbird_Braeside_Victoria.jpg" />
     </div>
     <h2 id="grey-fantail">Grey fantail</h2>
-    <p><em>Rhipidura albiscapa</em> <span class="lighter">(Rhipiduridae)</span></p>
+    <p><em>Rhipidura albiscapa</em> <span class="darker">(Rhipiduridae)</span></p>
     <p>16 cm.</p>
     <div class="carusel">
       <img loading="lazy"
@@ -210,7 +218,7 @@
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Rhipidura_albiscapa_-Canberra%2C_Australia-8.jpg/640px-Rhipidura_albiscapa_-Canberra%2C_Australia-8.jpg" />
     </div>
     <h2 id="laughing-kooaburra">Laughing kookaburra</h2>
-    <p><em>Dacelo novaeguineae</em> <span class="lighter">(Alcedinidae)</span></p>
+    <p><em>Dacelo novaeguineae</em> <span class="darker">(Alcedinidae)</span></p>
     <p>41 to 47 cm.</p>
     <div class="carusel">
       <img loading="lazy"
@@ -221,7 +229,7 @@
     <audio preload="none" controls
       src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LaughingKookaburra.ogg"></audio>
     <h2 id="little-raven">Little Raven</h2>
-    <p><em>Corvus mellori</em> <span class="lighter">(Corvidae)</span></p>
+    <p><em>Corvus mellori</em> <span class="darker">(Corvidae)</span></p>
     <p>48 to 50 cm.</p>
     <div class="carusel">
       <img loading="lazy"
@@ -230,7 +238,7 @@
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Little_Raven_-_Phillip_Is_-_Victoria_S4E1564_%2822198736888%29.jpg/640px-Little_Raven_-_Phillip_Is_-_Victoria_S4E1564_%2822198736888%29.jpg" />
     </div>
     <h2 id="magpie-lark">Magpie-lark</h2>
-    <p><em>Grallina cyanoleuca</em> <span class="lighter">(Monarchidae)</span></p>
+    <p><em>Grallina cyanoleuca</em> <span class="darker">(Monarchidae)</span></p>
     <p>25 to 30 cm.</p>
     <div class="carusel">
       <img loading="lazy"
@@ -239,7 +247,7 @@
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Magpie-lark_%28Grallina_cyanoleuca_cyanoleuca%29_male_Adelaide.jpg/640px-Magpie-lark_%28Grallina_cyanoleuca_cyanoleuca%29_male_Adelaide.jpg" />
     </div>
     <h2 id="musk-lorikeet">Musk lorikeet</h2>
-    <p><em>Glossopsitta concinna</em> <span class="lighter">(Psittaculidae)</span></p>
+    <p><em>Glossopsitta concinna</em> <span class="darker">(Psittaculidae)</span></p>
     <p>22 cm.</p>
     <div class="carusel">
       <img loading="lazy"
@@ -248,7 +256,7 @@
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Musk_Lorikeet_jul08.jpg/512px-Musk_Lorikeet_jul08.jpg" />
     </div>
     <h2 id="noisey-miner">Noisey Miner</h2>
-    <p><em>Manorina melanocephala</em> <span class="lighter">(Meliphagidae)</span></p>
+    <p><em>Manorina melanocephala</em> <span class="darker">(Meliphagidae)</span></p>
     <p>24 to 28 cm.</p>
     <div class="carusel">
       <img loading="lazy"
@@ -259,7 +267,7 @@
     <audio preload="none" controls
       src="https://upload.wikimedia.org/wikipedia/commons/1/13/Noisy_Miner_Bird_Call.ogg"></audio>
     <h2 id="pied-currawong">Pied Currawong</h2>
-    <p><em>Strepera graculina</em> <span class="lighter">(Artamidae)</span></p>
+    <p><em>Strepera graculina</em> <span class="darker">(Artamidae)</span></p>
     <p>44 to 50 cm.</p>
     <div class="carusel">
       <img loading="lazy"
@@ -269,7 +277,7 @@
     </div>
     <audio preload="none" controls src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Pied-Currawong.ogg"></audio>
     <h2 id="rainbow-lorikeet">Rainbow Lorikeet</h2>
-    <p><em>Trichoglossus moluccanus</em> <span class="lighter">(Psittaculidae)</span></p>
+    <p><em>Trichoglossus moluccanus</em> <span class="darker">(Psittaculidae)</span></p>
     <p>25 to 30 cm.</p>
     <div class="carusel">
       <img loading="lazy"
@@ -278,7 +286,7 @@
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Trichoglossus_moluccanus_Colchester_Zoo.jpg/360px-Trichoglossus_moluccanus_Colchester_Zoo.jpg" />
     </div>
     <h2 id="red-wattlebird">Red wattlebird</h2>
-    <p><em>Anthochaera carunculata</em> <span class="lighter">(Meliphagidae)</span></p>
+    <p><em>Anthochaera carunculata</em> <span class="darker">(Meliphagidae)</span></p>
     <p>33 to 37 cm.</p>
     <div class="carusel">
       <img loading="lazy"
@@ -287,7 +295,7 @@
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Red_Wattlebird_%28Anthochaera_carunculata%29_-_Flickr_-_Lip_Kee.jpg/600px-Red_Wattlebird_%28Anthochaera_carunculata%29_-_Flickr_-_Lip_Kee.jpg" />
     </div>
     <h2 id="rock-dove">Rock dove</h2>
-    <p><em>Columba livia</em> <span class="lighter">(Columbidae)</span></p>
+    <p><em>Columba livia</em> <span class="darker">(Columbidae)</span></p>
     <p>29 to 37 cm. Introduced species.</p>
     <div class="carusel">
       <img loading="lazy"
@@ -296,7 +304,7 @@
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Columba_livia_Oulu_Finland_2016-05-05.jpg/640px-Columba_livia_Oulu_Finland_2016-05-05.jpg" />
     </div>
     <h2 id="spotted-dove">Spotted dove</h2>
-    <p><em>Spilopelia chinensis</em> <span class="lighter">(Columbidae)</span></p>
+    <p><em>Spilopelia chinensis</em> <span class="darker">(Columbidae)</span></p>
     <p>12 to 19 cm. Introduced species.</p>
     <div class="carusel">
       <img loading="lazy"
@@ -307,7 +315,7 @@
     <audio preload="none" controls
       src="https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5a/Spotted_dove_song_recorded_in_February_2003_at_Kulgi_Nature_Camp%2C_Dandeli.wav/Spotted_dove_song_recorded_in_February_2003_at_Kulgi_Nature_Camp%2C_Dandeli.wav.mp3"></audio>
     <h2 id="spotted-pardalote">Spotted pardalote</h2>
-    <p><em>Pardalotus punctatus</em> <span class="lighter">(Pardalotidae)</span></p>
+    <p><em>Pardalotus punctatus</em> <span class="darker">(Pardalotidae)</span></p>
     <p>8 to 10 cm.</p>
     <div class="carusel">
       <img loading="lazy"
@@ -316,7 +324,7 @@
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Spotted_Pardalote_%28Pardalotus_punctatus%29_male_%2821325231196%29.jpg/640px-Spotted_Pardalote_%28Pardalotus_punctatus%29_male_%2821325231196%29.jpg" />
     </div>
     <h2 id="sulphur-crested-cockatoo">Sulphur-crested cockatoo</h2>
-    <p><em>Cacatua galerita</em> <span class="lighter">(Cacatuidae)</span></p>
+    <p><em>Cacatua galerita</em> <span class="darker">(Cacatuidae)</span></p>
     <p>44 to 55 cm.</p>
     <div class="carusel">
       <img loading="lazy"
@@ -325,7 +333,7 @@
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Cacatua_galerita_Risdon.jpg/640px-Cacatua_galerita_Risdon.jpg" />
     </div>
     <h2 id="#superb-fairywren">Superb fairywren</h2>
-    <p><em>Malurus cyaneus</em> <span class="lighter">(Maluridae)</span></p>
+    <p><em>Malurus cyaneus</em> <span class="darker">(Maluridae)</span></p>
     <p>14 cm. Male breeding plumage has bright blue and black, female and male non-breeding plumage has brown.</p>
     <div class="carusel">
       <img loading="lazy"
@@ -334,7 +342,7 @@
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Female_superb_fairy_wren-edit1.jpg/483px-Female_superb_fairy_wren-edit1.jpg" />
     </div>
     <h2 id="welcome-swallow">Welcome swallow</h2>
-    <p><em>Hirundo neoxena</em> <span class="lighter">(Hirundinidae)</span></p>
+    <p><em>Hirundo neoxena</em> <span class="darker">(Hirundinidae)</span></p>
     <p>15 cm.</p>
     <div class="carusel">
       <img loading="lazy"
@@ -343,7 +351,7 @@
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Welcome_Swallow_-_Cairns.jpg/640px-Welcome_Swallow_-_Cairns.jpg" />
     </div>
     <h2 id="white-browed-scrubwren">White-browed scrubwren</h2>
-    <p><em>Sericornis frontalis</em> <span class="lighter">(Acanthizidae)</span></p>
+    <p><em>Sericornis frontalis</em> <span class="darker">(Acanthizidae)</span></p>
     <p>11 to 14cm.</p>
     <div class="carusel">
       <img loading="lazy"
@@ -352,7 +360,7 @@
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Wei%C3%9Fbrauensericornis_%28Sericornis_frontalis%29%2C_Weibchen.jpg/637px-Wei%C3%9Fbrauensericornis_%28Sericornis_frontalis%29%2C_Weibchen.jpg" />
     </div>
     <h2 id="white-plumed-honeyeater">White-plumed honeyeater</h2>
-    <p><em>Ptilotula penicillata</em> <span class="lighter">(Meliphagidae)</span></p>
+    <p><em>Ptilotula penicillata</em> <span class="darker">(Meliphagidae)</span></p>
     <p>15 to 17 cm.</p>
     <div class="carusel">
       <img loading="lazy"
