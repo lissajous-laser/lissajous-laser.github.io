@@ -932,6 +932,11 @@
   prevFamBtn.addEventListener("click", () => {
     for (let i = monographs.length - 1; i >= 0; i--) {
       if (Math.ceil(monographs[i].getBoundingClientRect().y) < 0) {
+        if (i === 0) {
+
+          document.location.href = "#" + monographs[i].id;
+          break;
+        }
 
         for (let j = i - 1; j >= 0; j--) {
           if (monographs[j].dataset.fam !== monographs[j + 1]?.dataset.fam) {
@@ -944,7 +949,6 @@
             document.location.href = "#" + monographs[j].id;
             break;
           }
-
         }
 
         break;
