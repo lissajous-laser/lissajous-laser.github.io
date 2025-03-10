@@ -30,8 +30,16 @@
       margin-top: 1.75rem;
     }
 
+    h1 {
+      font-size: 1.75rem;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+    }
+
     img {
-      height: 16rem;
+      height: 12rem;
       aspect-ratio: 3/4 auto;
       color: var(--grey);
     }
@@ -115,7 +123,12 @@
     .carusel {
       display: flex;
       gap: 0.25rem;
-      overflow-x: auto;
+      overflow-x: scroll;
+      scroll-snap-type: x;
+    }
+
+    figure {
+      scroll-snap-align: center;
     }
 
     .darker {
@@ -132,8 +145,16 @@
     }
 
     @media (min-width: 32rem) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+
       img {
-        height: 20rem;
+        height: 16rem;
       }
     }
 
