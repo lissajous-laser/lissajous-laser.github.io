@@ -14,8 +14,8 @@
       --snow: rgb(239, 239, 239);
       --grey: rgb(159, 159, 163);
       --sky: #66b3ff;
-      --slate: #8cb3d9;
-      --purpleBlue: #6694ff;
+      --babyBlue: #8cb3d9;
+      --blurple: #6694ff;
     }
 
     body {
@@ -50,7 +50,7 @@
     }
 
     a:visited {
-      color: var(--purpleBlue);
+      color: var(--blurple);
     }
 
     a:active {
@@ -76,7 +76,7 @@
       height: 2rem;
       font-size: 1rem;
       padding: 0 0.75rem;
-      background-color: var(--slate);
+      background-color: var(--babyBlue);
       color: var(--midnight);
       border-radius: 0.25rem;
       border: none;
@@ -84,6 +84,10 @@
 
     button:active {
       opacity: 0.8;
+    }
+
+    polygon {
+      stroke: var(--midnight);
     }
 
     .root {
@@ -160,7 +164,7 @@
       }
     }
 
-    @media (min-width: 80rem) {
+    @media (min-width: 64rem) {
       .root {
         margin-left: auto;
         margin-right: auto;
@@ -397,13 +401,13 @@
         <div class="carusel">
           <figure>
             <img loading="lazy"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Rainbow_lorikeet_%28Trichoglossus_moluccanus_moluccanus%29_Sydney.jpg/371px-Rainbow_lorikeet_%28Trichoglossus_moluccanus_moluccanus%29_Sydney.jpg"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Lorikeet_Centennial_Park_007.jpg/470px-Lorikeet_Centennial_Park_007.jpg"
               alt="Rainbow Lorikeet" />
-            <figcaption class="darker">Charles J. Sharp <a class="cc"
+            <figcaption class="darker">Sardaka <a class="cc"
                 href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
             </figcaption>
             <cite
-              hidden>https://commons.wikimedia.org/wiki/File:Rainbow_lorikeet_(Trichoglossus_moluccanus_moluccanus)_Sydney.jpg</cite>
+              hidden>https://commons.wikimedia.org/wiki/File:Lorikeet_Centennial_Park_007.jpg</cite>
           </figure>
           <figure>
             <img loading="lazy"
@@ -923,24 +927,24 @@
 
     </main>
     <br />
-    <div class="sticky"><button id="back-to-top">Back to top</button>
+    <nav class="sticky"><button id="back-to-top">Back to top</button>
       <div class="famNav">
         <button id="prev-fam">
           <svg class="famNavIcon" version="1.1" id="Layer_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="531.74"
             height="460.5" viewBox="0 0 531.74 460.5" overflow="visible" enable-background="new 0 0 531.74 460.5"
             xml:space="preserve">
-            <polygon stroke="rgb(15, 15, 23)" points="0.866,460 265.87,1 530.874,460 " />
+            <polygon points="0.866,460 265.87,1 530.874,460 " />
           </svg> family
         </button>
         <button id="next-fam">
           <svg class="famNavIcon" version="1.1" id="Layer_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="531.74"
             height="460.5" viewBox="0 0 531.74 460.5" overflow="visible" enable-background="new 0 0 531.74 460.5"
             xml:space="preserve">
-            <polygon stroke="rgb(15, 15, 23)" points="530.874,0.5 265.87,459.5 0.866,0.5 " />
+            <polygon points="530.874,0.5 265.87,459.5 0.866,0.5 " />
           </svg> family
         </button>
       </div>
-    </div>
+    </nav>
   </div>
 
 </body>
