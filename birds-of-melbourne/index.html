@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Land Birds of Melbourne</title>
+  <link rel="icon" type="image/png" href="./icons/sparrow-bird-icon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Beginner's guide to common land birds in Melbourne, Australia.">
+  <style>
+    :root {
+      --midnight: rgb(15, 15, 23);
+      --translucentMidnight: rgba(15, 15, 23, 0.8);
+      --snow: rgb(239, 239, 239);
+      --grey: rgb(159, 159, 163);
+      --sky: #66b3ff;
+      --babyBlue: #8cb3d9;
+      --blurple: #6694ff;
+    }
+
+    body {
+      font-family: sans-serif;
+      background-color: var(--midnight);
+      color: var(--snow);
+      margin: 0;
+      touch-action: manipulation;
+    }
+
+    h1,
+    h2 {
+      margin-top: 1.75rem;
+    }
+
+    h1 {
+      font-size: 1.75rem;
+    }
+
+    h2 {
+      font-size: 1.375rem;
+    }
+
+    img {
+      height: 12rem;
+      aspect-ratio: 3/4 auto;
+      color: var(--grey);
+    }
+
+    a {
+      color: var(--sky);
+    }
+
+    a:visited {
+      color: var(--blurple);
+    }
+
+    a:active {
+      opacity: 0.8;
+    }
+
+    p {
+      line-height: 1.25;
+    }
+
+    figure {
+      margin: 0;
+    }
+
+    figcaption {
+      margin-top: 0.25rem;
+      font-size: 0.75rem;
+      text-align: right;
+      white-space: pre;
+    }
+
+    button {
+      height: 2rem;
+      font-size: 1rem;
+      padding: 0 0.75rem;
+      background-color: var(--babyBlue);
+      color: var(--midnight);
+      border-radius: 0.25rem;
+      border: none;
+    }
+
+    button:active {
+      opacity: 0.8;
+    }
+
+    polygon {
+      stroke: var(--midnight);
+    }
+
+    .root {
+      margin: 2rem 9% 0;
+      max-width: 50rem;
+    }
+
+    .toc {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.375rem 0.5rem;
+      padding: 0;
+      max-width: 48rem;
+      list-style-type: none;
+    }
+
+    .sticky {
+      position: sticky;
+      bottom: 0;
+      padding: 0.375rem 0;
+      margin-top: 1rem;
+      display: flex;
+      justify-content: space-between;
+      background-color: var(--translucentMidnight);
+    }
+
+    .famNav {
+      display: flex;
+      gap: 0.375rem;
+    }
+
+    .famNavIcon {
+      height: 0.5rem;
+      width: 0.5rem;
+      margin-right: 0.125rem;
+      vertical-align: 1px;
+    }
+
+    .carusel {
+      display: flex;
+      gap: 0.25rem;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+    }
+
+    figure {
+      scroll-snap-align: center;
+    }
+
+    .darker {
+      color: var(--grey);
+    }
+
+    .cc {
+      vertical-align: -0.25rem;
+    }
+
+    .cc>img {
+      height: 1.125rem;
+      height: 1.125rem;
+    }
+
+    @media (min-width: 32rem) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      img {
+        height: 16rem;
+      }
+    }
+
+    @media (min-width: 64rem) {
+      .root {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="root" id="top">
+    <nav>
+      <ul class="toc">
+        <li><a href="#australian-magpie">Australian magpie</a></li>
+        <li><a href="#brown-thornbill">Brown thornbill</a></li>
+        <li><a href="#common-blackbird">Common blackbird</a></li>
+        <li><a href="#common-myna">Common myna</a></li>
+        <li><a href="#common-starling">Common starling</a></li>
+        <li><a href="#crested-pigeon">Crested pigeon</a></li>
+        <li><a href="#eastern-rosella">Eastern rosella</a></li>
+        <li><a href="#galah">Galah</a></li>
+        <li><a href="#grey-butcherbird">Grey Butcherbird</a></li>
+        <li><a href="#grey-fantail">Grey Fantail</a></li>
+        <li><a href="#little-raven">Little Raven</a></li>
+        <li><a href="#little-wattlebird">Little wattlebird</a></li>
+        <li><a href="#magpie-lark">Magpie-lark</a></li>
+        <li><a href="#musk-lorikeet">Musk lorikeet</a></li>
+        <li><a href="#new-holland-honeyeater">New Holland honeyeater</a></li>
+        <li><a href="#noisey-miner">Noisey Miner</a></li>
+        <li><a href="#pied-currawong">Pied Currawong</a></li>
+        <li><a href="#rainbow-lorikeet">Rainbow Lorikeet</a></li>
+        <li><a href="#red-wattlebird">Red wattlebird</a></li>
+        <li><a href="#rock-dove">Rock dove</a></li>
+        <li><a href="#spotted-dove">Spotted dove</a></li>
+        <li><a href="#spotted-pardalote">Spotted pardalote</a></li>
+        <li><a href="#sulphur-crested-cockatoo">Sulphur-crested cockatoo</a></li>
+        <li><a href="#superb-fairywren">Superb fairywren</a></li>
+        <li><a href="#welcome-swallow">Welcome swallow</a></li>
+        <li><a href="#white-browed-scrubwren">White-browed scrubwren</a></li>
+        <li><a href="#white-plumed-honeyeater">White-plumed honeyeater</a></li>
+        <li><a href="#willie-wagtail">Willie wagtail</a></li>
+      </ul>
+    </nav>
+    <h1>Land Birds of Melbourne</h1>
+    <main>
+
+      <article id="rock-dove" data-fam="Columbidae">
+        <h2>Rock dove</h2>
+        <p><em>Columba livia </em> <span class="darker">(Columbidae)</span></p>
+        <p>29 to 37 cm. In human habitation areas. Introduced species.</p>
+        <div class="carusel">
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Common_pigeon_at_Waterlow_Park%2C_London_01.jpg/640px-Common_pigeon_at_Waterlow_Park%2C_London_01.jpg"
+              alt="Rock dove" />
+            <figcaption class="darker">Satdeep Gill <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Common_pigeon_at_Waterlow_Park,_London_01.jpg</cite>
+          </figure>
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Rock_dove_%28Columba_livia%29.jpg/640px-Rock_dove_%28Columba_livia%29.jpg"
+              alt="Rock dove" />
+            <figcaption class="darker">Charles J. Sharp <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Rock_dove_(Columba_livia).jpg</cite>
+          </figure>
+        </div>
+      </article>
+
+      <article id="crested-pigeon" data-fam="Columbidae">
+        <h2>Crested pigeon</h2>
+        <p><em>Ocyphaps lophotes</em> <span class="darker">(Columbidae)</span></p>
+        <p>30 to 34 cm. In lightly wooded grasslands. The wings make a whistling sound when flying.</p>
+        <div class="carusel">
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Ocyphaps_lophotes_-_Lake_Parramatta_Reserve.jpg/640px-Ocyphaps_lophotes_-_Lake_Parramatta_Reserve.jpg"
+              alt="Crested pigeon" />
+            <figcaption class="darker">JJ Harrison <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Ocyphaps_lophotes_-_Lake_Parramatta_Reserve.jpg</cite>
+          </figure>
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Crested_Pigeon_Nov09.jpg/640px-Crested_Pigeon_Nov09.jpg"
+              alt="Crested pigeon" />
+            <figcaption class="darker">Fir0002/Flagstaffotos <a class="cc"
+                href="https://creativecommons.org/licenses/by-nc/3.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Crested_Pigeon_Nov09.jpg</cite>
+          </figure>
+        </div>
+      </article>
+
+      <article id="spotted-dove" data-fam="Columbidae">
+        <h2>Spotted dove</h2>
+        <p><em>Spilopelia chinensis</em> <span class="darker">(Columbidae)</span></p>
+        <p>12 to 19 cm. In parks and gardens. Introduced species.</p>
+        <div class="carusel">
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Spotted_Dove_%28Streptopelia_chinensis%29_-_Flickr_-_Lip_Kee_%284%29.jpg/600px-Spotted_Dove_%28Streptopelia_chinensis%29_-_Flickr_-_Lip_Kee_%284%29.jpg"
+              alt="Spotted dove" />
+            <figcaption class="darker">Lip Kee <a class="cc" href="https://creativecommons.org/licenses/by-sa/2.0/"><img
+                  src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite
+              hidden>https://commons.wikimedia.org/wiki/File:Spotted_Dove_(Streptopelia_chinensis)_-_Flickr_-_Lip_Kee_(4).jpg</cite>
+          </figure>
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Streptopelia_chinensis_Tas_Edit.jpg/640px-Streptopelia_chinensis_Tas_Edit.jpg"
+              alt="Spotted dove" />
+            <figcaption class="darker">JJ Harrison <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/3.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Streptopelia_chinensis_Tas_Edit.jpg</cite>
+          </figure>
+        </div>
+      </article>
+
+      <article id="sulphur-crested-cockatoo" data-fam="Cacatuidae">
+        <h2>Sulphur-crested cockatoo</h2>
+        <p><em>Cacatua galerita</em> <span class="darker">(Cacatuidae)</span></p>
+        <p>44 to 55 cm. In wooded areas.</p>
+        <div class="carusel">
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Cacatua_galerita_2_-_Austin%27s_Ferry.jpg/384px-Cacatua_galerita_2_-_Austin%27s_Ferry.jpg"
+              alt="Sulphur-crested cockatoo" />
+            <figcaption class="darker">JJ Harrison <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/3.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Cacatua_galerita_2_-_Austin%27s_Ferry.jpg</cite>
+          </figure>
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Cacatua_galerita_Risdon.jpg/640px-Cacatua_galerita_Risdon.jpg"
+              alt="Sulphur-crested cockatoo" />
+            <figcaption class="darker">JJ Harrison <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/3.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Cacatua_galerita_Risdon.jpg</cite>
+          </figure>
+        </div>
+      </article>
+
+      <article id="galah" data-fam="Cacatuidae">
+        <h2>Galah</h2>
+        <p><em>Eolophus roseicapilla</em> <span class="darker">(Cacatuidae)</span></p>
+        <p>35 cm. In wooded areas except rainforests.</p>
+        <div class="carusel">
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Eolophus_roseicapilla.jpg/640px-Eolophus_roseicapilla.jpg"
+              alt="Galah" />
+            <figcaption class="darker">Toby Hudson <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/3.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Eolophus_roseicapilla.jpg</cite>
+          </figure>
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Female_Galah_Outside_Nest.jpg/386px-Female_Galah_Outside_Nest.jpg"
+              alt="Galah" />
+            <figcaption class="darker">JJ Harrison <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/3.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Eolophus_roseicapilla_AF.jpg</cite>
+          </figure>
+        </div>
+      </article>
+
+      <article id="musk-lorikeet" data-fam="Psittaculidae">
+        <h2 id="musk-lorikeet">Musk lorikeet</h2>
+        <p><em>Glossopsitta concinna</em> <span class="darker">(Psittaculidae)</span></p>
+        <p>22 cm. In wooded areas.</p>
+        <div class="carusel">
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Glossopsitta_concinna_-Kangaroo_Flat%2C_Bendigo%2C_Victoria%2C_Australia-8_%281%29.jpg/640px-Glossopsitta_concinna_-Kangaroo_Flat%2C_Bendigo%2C_Victoria%2C_Australia-8_%281%29.jpg"
+              alt="Musk lorikeet" />
+            <figcaption class="darker">patrickkavanagh <a class="cc"
+                href="https://creativecommons.org/licenses/by/2.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite
+              hidden>https://commons.wikimedia.org/wiki/File:Glossopsitta_concinna_-Kangaroo_Flat,_Bendigo,_Victoria,_Australia-8_(1).jpg</cite>
+          </figure>
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Musk_Lorikeet_jul08.jpg/512px-Musk_Lorikeet_jul08.jpg"
+              alt="Musk lorikeet" />
+            <figcaption class="darker">Fir0002/Flagstaffotos <a class="cc"
+                href="https://creativecommons.org/licenses/by-nc/3.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Musk_Lorikeet_jul08.jpg</cite>
+          </figure>
+        </div>
+      </article>
+
+      <article id="eastern-rosella" data-fam="Psittaculidae">
+        <h2>Eastern rosella</h2>
+        <p><em>Platycercus eximius</em> <span class="darker">(Psittaculidae)</span></p>
+        <p>28 to 32 cm. In open woodlands, grasslands.</p>
+        <div class="carusel">
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Platycercus_eximius_diemenensis_male.jpg/640px-Platycercus_eximius_diemenensis_male.jpg"
+              alt="Eastern rosella" />
+            <figcaption class="darker">JJ Harrison <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/3.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://en.wikipedia.org/wiki/File:Platycercus_eximius_diemenensis_male.jpg</cite>
+          </figure>
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Platycercus_eximius_-Edithvale_Wetland%2C_Melbourne%2C_Australia-8.jpg/640px-Platycercus_eximius_-Edithvale_Wetland%2C_Melbourne%2C_Australia-8.jpg"
+              alt="Eastern rosella" />
+            <figcaption class="darker">Wayne Butterworth <a class="cc"
+                href="https://creativecommons.org/licenses/by/3.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite
+              hidden>https://commons.wikimedia.org/wiki/File:Platycercus_eximius_-Edithvale_Wetland,_Melbourne,_Australia-8.jpg</cite>
+          </figure>
+        </div>
+      </article>
+
+      <article id="rainbow-lorikeet" data-fam="Psittaculidae">
+        <h2>Rainbow Lorikeet</h2>
+        <p><em>Trichoglossus moluccanus</em> <span class="darker">(Psittaculidae)</span></p>
+        <p>25 to 30 cm. In wooded areas.</p>
+        <div class="carusel">
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Lorikeet_Centennial_Park_007.jpg/470px-Lorikeet_Centennial_Park_007.jpg"
+              alt="Rainbow Lorikeet" />
+            <figcaption class="darker">Sardaka <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite
+              hidden>https://commons.wikimedia.org/wiki/File:Lorikeet_Centennial_Park_007.jpg</cite>
+          </figure>
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Trichoglossus_moluccanus_Colchester_Zoo.jpg/360px-Trichoglossus_moluccanus_Colchester_Zoo.jpg"
+              alt="Rainbow Lorikeet" />
+            <figcaption class="darker">William Warby <a class="cc"
+                href="https://creativecommons.org/licenses/by/2.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Trichoglossus_moluccanus_Colchester_Zoo.jpg</cite>
+          </figure>
+        </div>
+      </article>
+
+      <article id="superb-fairywren" data-fam="Maluridae">
+        <h2>Superb fairywren</h2>
+        <p><em>Malurus cyaneus</em> <span class="darker">(Maluridae)</span></p>
+        <p>14 cm. In dense shrubby areas. The head and back is blue and black in breeding males, and brown in females and non-breeding males.
+        </p>
+        <div class="carusel">
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Malurus_cyaneus_cyanochlamys_.jpg/640px-Malurus_cyaneus_cyanochlamys_.jpg"
+              alt="Superb fairywren" />
+            <figcaption class="darker">JJ Harrison <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Malurus_cyaneus_cyanochlamys_.jpg</cite>
+          </figure>
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Female_superb_fairy_wren-edit1.jpg/483px-Female_superb_fairy_wren-edit1.jpg"
+              alt="Superb fairywren" />
+            <figcaption class="darker">Fir0002/Flagstaffotos <a class="cc"
+                href="https://creativecommons.org/licenses/by-nc/3.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Female_superb_fairy_wren-edit1.jpg</cite>
+          </figure>
+        </div>
+      </article>
+
+      <article id="spotted-pardalote" data-fam="Pardalotidae">
+        <h2>Spotted pardalote</h2>
+        <p><em>Pardalotus punctatus</em> <span class="darker">(Pardalotidae)</span></p>
+        <p>8 to 10 cm. In the canopy of wooded areas.</p>
+        <div class="carusel">
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Pardalotus_punctatus_-_Glen_Davis.jpg/640px-Pardalotus_punctatus_-_Glen_Davis.jpg"
+              alt="Spotted pardalote" />
+            <figcaption class="darker">JJ Harrison <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Pardalotus_punctatus_-_Glen_Davis.jpg</cite>
+          </figure>
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Spotted_Pardalote_%28Pardalotus_punctatus%29_male_%2821325231196%29.jpg/640px-Spotted_Pardalote_%28Pardalotus_punctatus%29_male_%2821325231196%29.jpg"
+              alt="Spotted pardalote" />
+            <figcaption class="darker">patrickkavanagh <a class="cc"
+                href="https://creativecommons.org/licenses/by/2.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite
+              hidden>https://commons.wikimedia.org/wiki/File:Spotted_Pardalote_(Pardalotus_punctatus)_male_(21325231196).jpg</cite>
+          </figure>
+        </div>
+      </article>
+
+      <article id="brown-thornbill" data-fam="Acanthizidae">
+        <h2>Brown thornbill</h2>
+        <p><em>Acanthiza pusilla</em> <span class="darker">(Acanthizidae)</span></p>
+        <p>9 to 10 cm. In dense shrubby areas.</p>
+        <div class="carusel">
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Acanthiza_pusilla_-_Risdon_Brook.jpg/600px-Acanthiza_pusilla_-_Risdon_Brook.jpg"
+              alt="Brown thornbill" />
+            <figcaption class="darker">JJ Harrison <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/3.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Acanthiza_pusilla_-_Risdon_Brook.jpg</cite>
+          </figure>
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Acanthiza_pusilla_-_Austin%27s_Ferry.jpg/640px-Acanthiza_pusilla_-_Austin%27s_Ferry.jpg"
+              alt="Brown thornbill" />
+            <figcaption class="darker">JJ Harrison <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/3.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Acanthiza_pusilla_-_Austin%27s_Ferry.jpg</cite>
+          </figure>
+        </div>
+      </article>
+
+      <article id="white-browed-scrubwren" data-fam="Acanthizidae">
+        <h2>White-browed scrubwren</h2>
+        <p><em>Sericornis frontalis</em> <span class="darker">(Acanthizidae)</span></p>
+        <p>11 to 14 cm. In dense shrubby areas.</p>
+        <div class="carusel">
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Sericornis_frontalis_-_Brunkerville.jpg/640px-Sericornis_frontalis_-_Brunkerville.jpg"
+              alt="White-browed scrubwren" />
+            <figcaption class="darker">JJ Harrison <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Sericornis_frontalis_-_Brunkerville.jpg</cite>
+          </figure>
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Wei%C3%9Fbrauensericornis_%28Sericornis_frontalis%29%2C_Weibchen.jpg/637px-Wei%C3%9Fbrauensericornis_%28Sericornis_frontalis%29%2C_Weibchen.jpg"
+              alt="White-browed scrubwren" />
+            <figcaption class="darker">Caroline Jones <a class="cc"
+                href="https://creativecommons.org/licenses/by/2.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite
+              hidden>https://commons.wikimedia.org/wiki/File:Wei%C3%9Fbrauensericornis_(Sericornis_frontalis),_Weibchen.jpg</cite>
+          </figure>
+        </div>
+      </article>
+
+      <article id="red-wattlebird" data-fam="Meliphagidae">
+        <h2>Red wattlebird</h2>
+        <p><em>Anthochaera carunculata</em> <span class="darker">(Meliphagidae)</span></p>
+        <p>33 to 37 cm. In wooded areas and gardens.</p>
+        <div class="carusel">
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Red_wattlebird.jpg/480px-Red_wattlebird.jpg"
+              alt="Red wattlebird" />
+            <figcaption class="darker">Andreas Trepte <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Red_wattlebird.jpg</cite>
+          </figure>
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Red_Wattlebird_%28Anthochaera_carunculata%29_-_Flickr_-_Lip_Kee.jpg/600px-Red_Wattlebird_%28Anthochaera_carunculata%29_-_Flickr_-_Lip_Kee.jpg"
+              alt="Red wattlebird" />
+            <figcaption class="darker">Lip Kee <a class="cc" href="https://creativecommons.org/licenses/by-sa/2.0/"><img
+                  src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite
+              hidden>https://commons.wikimedia.org/wiki/File:Red_Wattlebird_(Anthochaera_carunculata)_-_Flickr_-_Lip_Kee.jpg</cite>
+          </figure>
+        </div>
+      </article>
+
+      <article id="little-wattlebird" data-fam="Meliphagidae">
+        <h2>Little wattlebird</h2>
+        <p><em>Anthochaera chrysoptera</em> <span class="darker">(Meliphagidae)</span></p>
+        <p>26 to 30 cm. In shrubby areas.</p>
+        <div class="carusel">
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Anthochaera_chrysoptera_4.jpg/640px-Anthochaera_chrysoptera_4.jpg"
+              alt="Little wattlebird" />
+            <figcaption class="darker">JJ Harrison <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/3.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Anthochaera_chrysoptera_4.jpg</cite>
+          </figure>
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Little_Wattlebird_%28Anthochaera_chrysoptera%29_%2823305124842%29.jpg/640px-Little_Wattlebird_%28Anthochaera_chrysoptera%29_%2823305124842%29.jpg"
+              alt="Little wattlebird" />
+            <figcaption class="darker">patrickkavanagh <a class="cc" href="https://creativecommons.org/licenses/by/2.0/"><img
+                  src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Little_Wattlebird_(Anthochaera_chrysoptera)_(23305124842).jpg</cite>
+          </figure>
+        </div>
+      </article>
+
+      <article id="noisey-miner" data-fam="Meliphagidae">
+        <h2 id="noisey-miner">Noisey Miner</h2>
+        <p><em>Manorina melanocephala</em> <span class="darker">(Meliphagidae)</span></p>
+        <p>24 to 28 cm. In wooded areas without shrubs.</p>
+        <div class="carusel">
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Manorina_melanocephala_AF.jpg/307px-Manorina_melanocephala_AF.jpg"
+              alt="Noisey Miner" />
+            <figcaption class="darker">JJ Harrison <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/3.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Manorina_melanocephala_AF.jpg</cite>
+          </figure>
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Manorina_melanocephala_domain.jpg/618px-Manorina_melanocephala_domain.jpg"
+              alt="Noisey Miner" />
+            <figcaption class="darker">JJ Harrison <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/3.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Manorina_melanocephala_domain.jpg</cite>
+          </figure>
+        </div>
+      </article>
+
+      <article id="new-holland-honeyeater" data-fam="Meliphagidae">
+        <h2>New Holland honeyeater</h2>
+        <p><em>Phylidonyris novaehollandiae</em> <span class="darker">(Meliphagidae)</span></p>
+        <p>18 cm. In wooded areas and heathland.</p>
+        <div class="carusel">
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/New_Holland_Honeyeater_%28Phylidonyris_novaehollandiae%29_-_Flickr_-_Lip_Kee.jpg/600px-New_Holland_Honeyeater_%28Phylidonyris_novaehollandiae%29_-_Flickr_-_Lip_Kee.jpg"
+              alt="New Holland honeyeater" />
+            <figcaption class="darker">Lip Kee <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/2.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:New_Holland_Honeyeater_(Phylidonyris_novaehollandiae)_-_Flickr_-_Lip_Kee.jpg</cite>
+          </figure>
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/New_Holland_Honeyeater_%28Phylidonyris_novaehollandiae%29_%2815048717286%29.jpg/320px-New_Holland_Honeyeater_%28Phylidonyris_novaehollandiae%29_%2815048717286%29.jpg"
+              alt="New Holland honeyeater" />
+            <figcaption class="darker">patrickkavanagh <a class="cc"
+                href="https://creativecommons.org/licenses/by/2.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite
+              hidden>https://commons.wikimedia.org/wiki/File:New_Holland_Honeyeater_(Phylidonyris_novaehollandiae)_(15048717286).jpg</cite>
+          </figure>
+        </div>
+      </article>
+
+      <article id="white-plumed-honeyeater" data-fam="Meliphagidae">
+        <h2>White-plumed honeyeater</h2>
+        <p><em>Ptilotula penicillata</em> <span class="darker">(Meliphagidae)</span></p>
+        <p>15 to 17 cm. In wooded areas often near water.</p>
+        <div class="carusel">
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Ptilotula_penicillata_-_Glen_Davis.jpg/480px-Ptilotula_penicillata_-_Glen_Davis.jpg"
+              alt="White-plumed honeyeater" />
+            <figcaption class="darker">JJ Harrison <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Ptilotula_penicillata_-_Glen_Davis.jpg</cite>
+          </figure>
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/White-plumed_Honeyeater_%28Ptilotula_penicillata%29.jpg/403px-White-plumed_Honeyeater_%28Ptilotula_penicillata%29.jpg"
+              alt="White-plumed honeyeater" />
+            <figcaption class="darker">Jim Bendon <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/2.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite
+              hidden>https://commons.wikimedia.org/wiki/File:White-plumed_Honeyeater_(Ptilotula_penicillata).jpg</cite>
+          </figure>
+        </div>
+      </article>
+
+      <article id="welcome-swallow" data-fam="Hirundinidae">
+        <h2>Welcome swallow</h2>
+        <p><em>Hirundo neoxena</em> <span class="darker">(Hirundinidae)</span></p>
+        <p>15 cm. Anywhere except dense forests.</p>
+        <div class="carusel">
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Welcome_swallow_%28Hirundo_neoxena_neoxena%29_Scottsdale.jpg/640px-Welcome_swallow_%28Hirundo_neoxena_neoxena%29_Scottsdale.jpg"
+              alt="Welcome swallow" />
+            <figcaption class="darker">Charles J. Sharp <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite
+              hidden>https://commons.wikimedia.org/wiki/File:Welcome_swallow_(Hirundo_neoxena_neoxena)_Scottsdale.jpg</cite>
+          </figure>
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Hirundo_neoxena_risdon.jpg/640px-Hirundo_neoxena_risdon.jpg"
+              alt="Welcome swallow" />
+            <figcaption class="darker">JJ Harrison <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/3.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Hirundo_neoxena_risdon.jpg</cite>
+          </figure>
+        </div>
+      </article>
+
+      <article id="common-blackbird" data-fam="Turdidae">
+        <h2>Common blackbird</h2>
+        <p><em>Turdus merula</em> <span class="darker">(Turdidae)</span></p>
+        <p>24 to 29 cm. In human habitation areas. Introduced species.</p>
+        <div class="carusel">
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Common_Blackbird_Turdus_Merula_%28262822201%29.jpeg/640px-Common_Blackbird_Turdus_Merula_%28262822201%29.jpeg"
+              alt="Common blackbird" />
+            <figcaption class="darker">Tomáš Marek <a class="cc"
+                href="https://creativecommons.org/licenses/by/3.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Common_Blackbird_Turdus_Merula_(262822201).jpeg</cite>
+          </figure>
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Blackbird_-_Turdus_merula.jpg/640px-Blackbird_-_Turdus_merula.jpg"
+              alt="Common blackbird" />
+            <figcaption class="darker">caroline legg <a class="cc"
+                href="https://creativecommons.org/licenses/by/2.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Blackbird_-_Turdus_merula.jpg</cite>
+          </figure>
+        </div>
+      </article>
+
+      <article id="common-myna" data-fam="Sturnidae">
+        <h2>Common myna</h2>
+        <p><em>Acridotheres tristis</em> <span class="darker">(Sturnidae)</span></p>
+        <p>23 to 26 cm. In human habitation areas. Introduced species.</p>
+        <div class="carusel">
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Acridotheres_tristis_-Sydney%2C_Australia-8.jpg/615px-Acridotheres_tristis_-Sydney%2C_Australia-8.jpg"
+              alt="Common myna" />
+            <figcaption class="darker">Richard Taylor <a class="cc"
+                href="https://creativecommons.org/licenses/by/2.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Acridotheres_tristis_-Sydney,_Australia-8.jpg</cite>
+          </figure>
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Acridotheres_tristis_40973073.jpg/640px-Acridotheres_tristis_40973073.jpg"
+              alt="Common myna" />
+            <figcaption class="darker">Graham Winterflood <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Acridotheres_tristis_40973073.jpg</cite>
+          </figure>
+        </div>
+      </article>
+
+      <article id="common-starling" data-fam="Sturnidae">
+        <h2>Common starling</h2>
+        <p><em>Sturnus vulgaris</em> <span class="darker">(Sturnidae)</span></p>
+        <p>19 to 23 cm. In human habitation areas. Introduced species.</p>
+        <div class="carusel">
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Sturnus_vulgaris_female_Tuileries_20200107.jpg/640px-Sturnus_vulgaris_female_Tuileries_20200107.jpg"
+              alt="Common starling" />
+            <figcaption class="darker">Marie-Lan Taÿ Pamart <a class="cc"
+                href="https://creativecommons.org/licenses/by/4.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Sturnus_vulgaris_female_Tuileries_20200107.jpg</cite>
+          </figure>
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Toulouse_-_Sturnus_vulgaris_-_2012-02-26_-_3.jpg/359px-Toulouse_-_Sturnus_vulgaris_-_2012-02-26_-_3.jpg"
+              alt="Common starling" />
+            <figcaption class="darker">PierreSelim <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/3.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Toulouse_-_Sturnus_vulgaris_-_2012-02-26_-_3.jpg</cite>
+          </figure>
+        </div>
+      </article>
+
+      <article id="grey-butcherbird" data-fam="Artamidae">
+        <h2>Grey butcherbird</h2>
+        <p><em>Cracticus torquatus</em> <span class="darker">(Artamidae)</span></p>
+        <p>27 to 30 cm. In wooded areas.</p>
+        <div class="carusel">
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Writtle_Park_047.jpg/640px-Writtle_Park_047.jpg"
+              alt="Grey butcherbird" />
+            <figcaption class="darker">Sardaka <a class="cc" href="https://creativecommons.org/licenses/by-sa/4.0/"><img
+                  src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Writtle_Park_047.jpg</cite>
+          </figure>
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Grey_Butcherbird_Hornsby_003a.jpg/630px-Grey_Butcherbird_Hornsby_003a.jpg"
+              alt="Grey butcherbird" />
+            <figcaption class="darker">Sardaka <a class="cc" href="https://creativecommons.org/licenses/by-sa/4.0/"><img
+                  src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Grey_Butcherbird_Hornsby_003a.jpg</cite>
+          </figure>
+        </div>
+      </article>
+
+      <article id="australian-magpie" data-fam="Artamidae">
+        <h2>Australian magpie</h2>
+        <p><em>Gymnorhina tibicen</em> <span class="darker">(Artamidae)</span></p>
+        <p>37 to 43 cm. In grasslands with nearby trees.</p>
+        <div class="carusel">
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Cracticus_tibicen_hypoleuca_male_domain.jpg/468px-Cracticus_tibicen_hypoleuca_male_domain.jpg"
+              alt="Australian magpie" />
+            <figcaption class="darker">JJ Harrison <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/3.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Cracticus_tibicen_hypoleuca_male_domain.jpg</cite>
+          </figure>
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Australian_magpie_juvenile_-_Flickr_-_Lip_Kee.jpg/600px-Australian_magpie_juvenile_-_Flickr_-_Lip_Kee.jpg"
+              alt="Australian magpie" />
+            <figcaption class="darker">Lip Kee <a class="cc" href="https://creativecommons.org/licenses/by-sa/2.0/"><img
+                  src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite
+              hidden>https://commons.wikimedia.org/wiki/File:Australian_magpie_juvenile_-_Flickr_-_Lip_Kee.jpg</cite>
+          </figure>
+        </div>
+      </article>
+
+      <article id="pied-currawong" data-fam="Artamidae">
+        <h2>Pied Currawong</h2>
+        <p><em>Strepera graculina</em> <span class="darker">(Artamidae)</span></p>
+        <p>44 to 50 cm. In wooded and suburban areas.</p>
+        <div class="carusel">
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Pied_Currawong%2C_Blue_Mountains.jpg/640px-Pied_Currawong%2C_Blue_Mountains.jpg"
+              alt="Pied Currawong" />
+            <figcaption class="darker">D. Gordon E. Robertson <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/3.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Pied_Currawong,_Blue_Mountains.jpg</cite>
+          </figure>
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Currawong_in_peppercorn.jpg/640px-Currawong_in_peppercorn.jpg"
+              alt="Pied Currawong" />
+            <figcaption class="darker">Fir0002/Flagstaffotos <a class="cc"
+                href="https://creativecommons.org/licenses/by-nc/3.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Currawong_in_peppercorn.jpg</cite>
+          </figure>
+        </div>
+      </article>
+
+      <article id="little-raven" data-fam="Corvidae">
+        <h2>Little Raven</h2>
+        <p><em>Corvus mellori</em> <span class="darker">(Corvidae)</span></p>
+        <p>48 to 50 cm. In grassland and open areas.</p>
+        <div class="carusel">
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Corvus_mellori.jpg/519px-Corvus_mellori.jpg"
+              alt="Little Raven" />
+            <figcaption class="darker">Toby Hudson <a class="cc" href="https://creativecommons.org/licenses/by-sa/3.0/"><img src="./icons/cc.svg"
+                  alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Corvus_mellori.jpg</cite>
+          </figure>
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Corvus_mellori_307653602.jpg/640px-Corvus_mellori_307653602.jpg"
+              alt="Little Raven" />
+            <figcaption class="darker">Thomas Jaeger <a class="cc"
+                href="https://creativecommons.org/licenses/by/4.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite
+              hidden>https://commons.wikimedia.org/wiki/File:Corvus_mellori_307653602.jpg</cite>
+          </figure>
+        </div>
+      </article>
+
+      <article id="magpie-lark" data-fam="Monarchidae">
+        <h2 id="magpie-lark">Magpie-lark</h2>
+        <p><em>Grallina cyanoleuca</em> <span class="darker">(Monarchidae)</span></p>
+        <p>25 to 30 cm. Anywhere except rainforests.</p>
+        <div class="carusel">
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Grallina_cyanoleuca_-Canberra%2C_Australia_-male-8_%282%29.jpg/640px-Grallina_cyanoleuca_-Canberra%2C_Australia_-male-8_%282%29.jpg"
+              alt="Magpie-lark" />
+            <figcaption class="darker">Duncan McCaskill <a class="cc"
+                href="https://creativecommons.org/licenses/by/3.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite
+              hidden>https://commons.wikimedia.org/wiki/File:Grallina_cyanoleuca_-Canberra,_Australia_-male-8_(2).jpg</cite>
+          </figure>
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Magpie_Lark_female.jpg/640px-Magpie_Lark_female.jpg"
+              alt="Magpie-lark" />
+            <figcaption class="darker">Toby Hudson <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/3.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite
+              hidden>https://commons.wikimedia.org/wiki/File:Magpie_Lark_female.jpg</cite>
+          </figure>
+        </div>
+      </article>
+
+      <article id="grey-fantail" data-fam="Rhipiduridae">
+        <h2>Grey fantail</h2>
+        <p><em>Rhipidura albiscapa</em> <span class="darker">(Rhipiduridae)</span></p>
+        <p>16 cm. In wooded areas.</p>
+        <div class="carusel">
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Grey_Fantail_-_Brunkerville.jpg/640px-Grey_Fantail_-_Brunkerville.jpg"
+              alt="Grey fantail" />
+            <figcaption class="darker">JJ Harrison <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Grey_Fantail_-_Brunkerville.jpg</cite>
+          </figure>
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Rhipidura_albiscapa_-Canberra%2C_Australia-8.jpg/640px-Rhipidura_albiscapa_-Canberra%2C_Australia-8.jpg"
+              alt="Grey fantail" />
+            <figcaption class="darker">Duncan McCaskill <a class="cc"
+                href="https://creativecommons.org/licenses/by/3.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Rhipidura_albiscapa_-Canberra,_Australia-8.jpg</cite>
+          </figure>
+        </div>
+      </article>
+
+      <article id="willie-wagtail" data-fam="Rhipiduridae">
+        <h2>Willie wagtail</h2>
+        <p><em>Rhipidura leucophrys</em> <span class="darker">(Rhipiduridae)</span></p>
+        <p>20 cm. In wooded areas near water.</p>
+        <div class="carusel">
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Rhipidura_leucophrys_-Canberra%2C_Australia-8.jpg/640px-Rhipidura_leucophrys_-Canberra%2C_Australia-8.jpg"
+              alt="Willie wagtail" />
+            <figcaption class="darker">Duncan McCaskill <a class="cc"
+                href="https://creativecommons.org/licenses/by/3.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Rhipidura_leucophrys_-Canberra,_Australia-8.jpg</cite>
+          </figure>
+          <figure>
+            <img loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Rhipidura_leucophrys_-_Glen_Davis.jpg/640px-Rhipidura_leucophrys_-_Glen_Davis.jpg"
+              alt="Willie wagtail" />
+            <figcaption class="darker">JJ Harrison <a class="cc"
+                href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="./icons/cc.svg" alt="Licence" /></a>
+            </figcaption>
+            <cite hidden>https://commons.wikimedia.org/wiki/File:Rhipidura_leucophrys_-_Glen_Davis.jpg</cite>
+          </figure>
+        </div>
+      </article>
+
+    </main>
+    <br />
+    <nav class="sticky"><button id="back-to-top">Back to top</button>
+      <div class="famNav">
+        <button id="prev-fam">
+          <svg class="famNavIcon" version="1.1" id="Layer_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="531.74"
+            height="460.5" viewBox="0 0 531.74 460.5" overflow="visible" enable-background="new 0 0 531.74 460.5"
+            xml:space="preserve">
+            <polygon points="0.866,460 265.87,1 530.874,460 " />
+          </svg> family
+        </button>
+        <button id="next-fam">
+          <svg class="famNavIcon" version="1.1" id="Layer_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="531.74"
+            height="460.5" viewBox="0 0 531.74 460.5" overflow="visible" enable-background="new 0 0 531.74 460.5"
+            xml:space="preserve">
+            <polygon points="530.874,0.5 265.87,459.5 0.866,0.5 " />
+          </svg> family
+        </button>
+      </div>
+    </nav>
+  </div>
+
+</body>
+<script>
+  const monographs = document.getElementsByTagName("main")[0].children;
+  const backToTopBtn = document.getElementById("back-to-top");
+  const prevFamBtn = document.getElementById("prev-fam");
+  const nextFamBtn = document.getElementById("next-fam");
+
+  backToTopBtn.addEventListener("click", () => {
+    document.location.href = "#top";
+  });
+
+  prevFamBtn.addEventListener("click", () => {
+    for (let i = monographs.length - 1; i >= 0; i--) {
+      if (Math.ceil(monographs[i].getBoundingClientRect().y) < 0) {
+        if (i === 0) {
+
+          document.location.href = "#" + monographs[i].id;
+          break;
+        }
+
+        for (let j = i - 1; j >= 0; j--) {
+          if (monographs[j].dataset.fam !== monographs[j + 1]?.dataset.fam) {
+
+            document.location.href = "#" + monographs[j + 1].id;
+            break;
+          }
+          if (j === 0) {
+
+            document.location.href = "#" + monographs[j].id;
+            break;
+          }
+        }
+
+        break;
+      }
+    }
+  });
+
+  nextFamBtn.addEventListener("click", () => {
+    for (let i = 0; i < monographs.length; i++) {
+      if (Math.floor(monographs[i].getBoundingClientRect().y) > 0) {
+        if (monographs[i].dataset.fam !== monographs[i - 1]?.dataset.fam) {
+
+          document.location.href = "#" + monographs[i].id;
+          break;
+        }
+      }
+    }
+  });
+
+</script>
+
+</html>
